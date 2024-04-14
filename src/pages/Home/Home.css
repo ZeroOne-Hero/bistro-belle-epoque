@@ -1,0 +1,65 @@
+.home-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.swiper {
+    width: 100%;
+    height: 100vh;
+}
+.image-wrapper {
+    position: relative;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(19, 22, 19, 0.4);
+}
+.home-headers-wrapper {
+    padding: 100px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+}
+
+.home-header {
+    color: white;
+    font-size: 5em;
+}
+
+.home-sub-header {
+    color: white;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.ant-btn.book-table-button {
+    background-color: rgba(255, 255, 255, 0.93);
+    border: 1px solid  rgb(23, 35, 23);
+    height: fit-content;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1.5em;
+    border-radius: 0;
+    color:  rgb(23, 35, 23);
+}
+
+
+.ant-btn.make-order-button {
+    background-color: rgba(23, 35, 23, 0.93);
+    border: 1px solid white;
+    height: fit-content;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1.5em;
+    border-radius: 0;
+    color: white;
+}
