@@ -1,0 +1,27 @@
+.swiper-reviews {
+    height: 400px;
+    background-image: url("../../assets/reviews.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.swiper-reviews-each {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.7em;
+    font-family: "Tinos", serif;
+}
+
+.reviews-overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: rgba(19, 22, 19, 0.4);
+}
+
+.reviews-p {
+    z-index: 10;
+}

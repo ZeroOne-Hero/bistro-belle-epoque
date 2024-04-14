@@ -1,0 +1,21 @@
+.about {
+    padding: 100px;
+}
+
+.about-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-titile {
+    font-family: "Great Vibes", cursive;
+    font-size: 5em !important;
+}
+
+.about-p {
+    font-family: "Tinos", serif;
+    font-size: 1.3em !important;
+    padding: 0 0 0 10px;
+    text-align: justify;
+}
