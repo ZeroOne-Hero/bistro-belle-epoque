@@ -1,16 +1,16 @@
 import React from 'react';
-import Home from "../Home/Home";
-import About from "../About/About";
+import Home from "../../components/Home/Home";
+import About from "../../components/About/About";
 import Reviews from "../../components/Reviews/Reviews";
-import Info from "../Info/Info";
+import Info from "../../components/Info/Info";
 import "./Main.css"
 const Main = () => {
     return (
         <div className="main">
             <Home/>
             <About/>
-            <Info/>
             <Reviews/>
+            <Info/>
         </div>
     );
 };

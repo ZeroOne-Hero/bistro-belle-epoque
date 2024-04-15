@@ -1,5 +1,5 @@
 .about {
-    padding: 100px;
+    padding: 100px 100px;
 }
 
 .about-row {
@@ -14,8 +14,8 @@
 }
 
 .about-p {
-    font-family: "Tinos", serif;
     font-size: 1.3em !important;
     padding: 0 0 0 10px;
     text-align: justify;
+    font-family: var(--font-primary);
 }

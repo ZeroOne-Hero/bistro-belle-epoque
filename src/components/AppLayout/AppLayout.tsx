@@ -2,6 +2,7 @@ import React, { ReactNode } from 'react';
 import { Layout } from 'antd';
 import Header from '../Header/Header';
 import { Content} from 'antd/lib/layout/layout';
+import Footer from "../Footer/Footer";
 
 
 interface AppLayoutProps {
@@ -17,6 +18,7 @@ const AppLayout: React.FC<AppLayoutProps> = ({ children }) => {
                     {children}
                 </div>
             </Content>
+            <Footer/>
         </Layout>
     );
 };

@@ -1,0 +1,99 @@
+.foodMenu {
+
+}
+
+.food-menu-bg-wrapper {
+    height: 65vh;
+    background-image: url('../../assets/home.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.drinks-menu-bg-wrapper {
+    height: 65vh;
+    background-image: url('../../assets/drinks.webp');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.food-menu-title {
+    position: absolute;
+    color: white;
+    font-size: 8em;
+    z-index: 1;
+    font-family: "Great Vibes", cursive;
+}
+
+.food-menu-overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: rgba(19, 22, 19, 0.4);
+}
+
+.menuTabs {
+    flex-grow: 1;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.ant-tabs-tab-btn {
+    font-size: 1.3em;
+}
+
+.menuTable {
+    margin: 20px 0;
+    min-width: 900px;
+}
+
+.menu-item-name {
+    font-size: 1.4em;
+}
+
+.menuTable td, .menuTable th {
+    padding: 10px 0;
+    border-bottom: 2px dotted #d4d4d4;
+}
+
+.menu-item-price {
+    text-align: right;
+}
+
+.menu-item-description {
+    font-size: 1.2em;
+    padding-right: 30px;
+}
+
+.menu-item-price {
+    font-size: 1.2em;
+
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #000000 !important;
+    font-weight: bolder;
+}
+
+.ant-tabs-ink-bar {
+    background-color: #000000 !important;
+}
+
+.ant-tabs-nav::before {
+    border-bottom: none !important;
+}
+
+.ant-tabs-tab:hover,
+.ant-tabs-tab:focus .ant-tabs-tab-btn,
+.ant-tabs-tab:active .ant-tabs-tab-btn {
+    color: #000000 !important;
+}

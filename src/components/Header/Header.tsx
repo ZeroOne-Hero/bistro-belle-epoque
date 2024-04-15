@@ -21,17 +21,19 @@ const Header = () => {
 
     }, []);
 
-    console.log("Current class: ", isSolid ? "solid" : "transparent");
 
 
     return (
         <div >
             <Menu className={`header ${isSolid ? 'solid' : 'transparent'}`} mode="horizontal" theme="light">
+                <Menu.Item key="home">
+                    <Link to="/">Home</Link>
+                </Menu.Item>
                 <Menu.Item className="header-item" key="food">
-                    <Link className="header-link" to="/food">Food</Link>
+                    <Link className="header-link" to="/food-menu">Food</Link>
                 </Menu.Item>
                 <Menu.Item key="drinks">
-                    <Link to="/drinks">Drinks</Link>
+                    <Link to="/drinks-menu">Drinks</Link>
                 </Menu.Item>
                 <Menu.Item key="gift-card">
                     <Link to="/gift-card">Gift Card</Link>

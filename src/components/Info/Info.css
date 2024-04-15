@@ -1,0 +1,21 @@
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 70px 0;
+    width: 100%;
+}
+.info-text {
+    font-family: var(--font-primary);
+}
+
+.info-title {
+    font-size: 2.5em !important;
+
+}
+
+.info-p {
+    font-size: 1.1em !important;
+}

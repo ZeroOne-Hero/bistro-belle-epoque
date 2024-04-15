@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 .home-main {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 }
 
 .swiper {
@@ -32,11 +32,12 @@
     flex-direction: column;
     position: absolute;
     z-index: 1;
+
 }
 
 .home-header {
     color: white;
-    font-size: 6em;
+    font-size: 6.5em;
     font-family: "Great Vibes", cursive;
     line-height: 1;
 }
@@ -45,7 +46,6 @@
     color: white;
     font-size: 2.7em;
     margin-bottom: 20px;
-    font-family: "Tinos", serif;
 }
 .ant-btn.book-table-button {
     background-color: rgba(255, 255, 255);
@@ -53,11 +53,17 @@
     height: fit-content;
     text-transform: uppercase;
     font-weight: bolder;
-    font-size: 1.35em;
-    border-radius: 0;
-    color:  rgb(23, 35, 23);
+    font-size: 1.5em;
+    border-radius: 25px;
+    color:  black;
+    padding: 7px 17px;
 }
+.ant-btn.book-table-button:hover {
 
+    background-color: rgba(255, 255, 255) !important;
+    border: 1px solid  rgba(17, 18, 17) !important;
+    color:  black !important;
+}
 
 .ant-btn.make-order-button {
     background-color: rgba(17, 18, 17);
@@ -65,7 +71,13 @@
     height: fit-content;
     text-transform: uppercase;
     font-weight: bolder;
-    font-size: 1.35em;
-    border-radius: 0;
+    font-size: 1.5em;
+    border-radius: 25px;
     color: white;
+    padding: 7px 17px;
+}
+.ant-btn.make-order-button:hover {
+    background-color: rgba(17, 18, 17) !important;
+    border: 1px solid white !important;
+    color: white !important;
 }

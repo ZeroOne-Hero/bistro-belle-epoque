@@ -1,11 +1,29 @@
-import React from 'react';
+import React, {useEffect, useRef} from 'react';
 import {Row, Col, Typography, Image} from 'antd';
 import "./About.css";
 import about from "../../assets/about.jpg"
-
+import { gsap } from 'gsap';
+import ScrollTrigger from 'gsap/ScrollTrigger';
 const {Title, Paragraph} = Typography;
 
+gsap.registerPlugin(ScrollTrigger);
 const About = () => {
+    const imageRef = useRef(null);
+
+    useEffect(() => {
+        gsap.from(imageRef.current, {
+            duration: 2.5,
+            x: 300,
+            autoAlpha: 0,
+            ease: 'power3.out',
+            scrollTrigger: {
+                trigger: imageRef.current,
+                start: "top bottom",
+                end: "bottom top",
+                toggleActions: "play none none reverse",
+            }
+        });
+    }, []);
     return (
         <div className="about">
             <Row className="about-row" gutter={[32, 32]} style={{alignItems: 'center'}}>
@@ -29,11 +47,14 @@ const About = () => {
                     </Paragraph>
                 </Col>
                 <Col>
-                    <Image
-                        src={about}
-                        alt="Bistro Interior"
-                        style={{width: "auto", height: '550px'}}
-                    />
+                    <div ref={imageRef}>
+                        <Image
+                            src={about}
+                            alt="Bistro Interior"
+                            style={{ width: "auto", height: '550px' }}
+                            preview={false}
+                        />
+                    </div>
                 </Col>
             </Row>
         </div>

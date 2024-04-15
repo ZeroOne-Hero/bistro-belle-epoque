@@ -1,23 +1,27 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import "./App.css";
 import Main from './pages/Main/Main';
 import AppLayout from "./components/AppLayout/AppLayout";
-import Contact from "./pages/Contact/Contact";
-// import Menu from './pages/Menu';
-// import About from './pages/About';
+import Menu from "./pages/Menu/Menu";
+import {foodMenuData} from './data/foodMenuData'
+import {drinksMenuData} from './data/drinksMenuData'
 
 const App: React.FC = () => (
     <div className="app">
-    <Router>
-        <AppLayout>
-        <Routes>
-            <Route path="/" element={<Main/>} />
-            {/*<Route path="/menu" element={<Menu />} />*/}
-            {/*<Route path="/about" element={<About />} />*/}
-        </Routes>
-        </AppLayout>
-    </Router>
+        <Router>
+            <AppLayout>
+                <Routes>
+                    <Route path="/" element={<Main/>}/>
+                    <Route path="/food-menu" element={<Menu menuData={foodMenuData}
+                                                            bgClassName="food-menu-bg-wrapper"
+                                                            title="Food Menu"/>}/>
+                    <Route path="/drinks-menu" element={<Menu menuData={drinksMenuData}
+                                                              bgClassName="drinks-menu-bg-wrapper"
+                                                              title="Drinks Menu"/>}/>
+                </Routes>
+            </AppLayout>
+        </Router>
     </div>
 );
 

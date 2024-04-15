@@ -36,7 +36,7 @@ const Home: React.FC = () => {
             <div className="home-headers-wrapper">
                 <h1 className="home-header">Bistro Belle Époque</h1>
                 <h2 className="home-sub-header">European kitchen & bar</h2>
-                <Row gutter={22} >
+                <Row gutter={18} >
                     <Col>
                         <Button type="primary" size="large" className="book-table-button">
                             Book a Table

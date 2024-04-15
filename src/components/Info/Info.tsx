@@ -1,14 +1,13 @@
 import React from 'react';
-import { Typography, Card } from 'antd';
+import { Typography } from 'antd';
 import "./Info.css"
 const { Title, Paragraph, Text } = Typography;
 
 const Info = () => {
     return (
         <div className="info">
-         <Card style={{ margin: '30px', padding:'50px 0', textAlign: 'center' }}>
-            <Title level={3}>HOURS & LOCATION</Title>
-            <Paragraph>
+            <Title className="info-text info-title" level={3}>HOURS & LOCATION</Title>
+            <Paragraph className="info-text info-p">
                 <Text strong>DINNER</Text><br />
                 Seven nights a week, 5:00–10:00 p.m.<br /><br />
                 <Text strong>LUNCH</Text><br />
@@ -19,11 +18,10 @@ const Info = () => {
                 address<br /><br />
             </Paragraph>
             <Title level={4}>RESERVATIONS</Title>
-            <Paragraph>
-                Reservations open 30 days in advance and are available on Resy.<br />
+            <Paragraph className="info-text info-p">
+                Reservations open 30 days in advance.<br />
                 For groups of 5+ guests, please email <a href="mailto:info@restaurant.nyc">info@restaurant.nyc</a>
             </Paragraph>
-         </Card>
         </div>
     );
 };
