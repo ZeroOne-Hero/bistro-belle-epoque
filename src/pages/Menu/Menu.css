@@ -101,3 +101,15 @@ background-color: black;
 .ant-tabs-tab:active .ant-tabs-tab-btn {
     color: #000000 !important;
 }
+
+.menu-divider {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-divider img{
+    height: 30px;
+    margin: 30px 0 50px 0;
+}

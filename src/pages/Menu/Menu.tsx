@@ -2,7 +2,7 @@ import React from 'react';
 import { Tabs } from 'antd';
 import './Menu.css';
 import {useLocation} from "react-router-dom";
-
+import divider from "../../assets/divider-b.png"
 const { TabPane } = Tabs;
 
 interface MenuItem {
@@ -47,9 +47,13 @@ const FoodMenu: React.FC<FoodMenuProps> = ({ menuData, bgClassName, title }) => 
                             ))}
                             </tbody>
                         </table>
+                        <div className="menu-divider">
+                        <img src={divider} alt="divider"/>
+                    </div>
                     </TabPane>
                 ))}
             </Tabs>
+
         </div>
     );
 };

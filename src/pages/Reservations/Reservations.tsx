@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Reservation.css";
-import { Col } from 'antd';
-import video from "../../assets/96.mp4";
+import {Button, Col} from 'antd';
+import video from "../../assets/996.mp4";
 import {useLocation} from "react-router-dom";
 
 const Reservations = () => {
@@ -19,6 +19,10 @@ const Reservations = () => {
                     Your browser does not support the video tag.
                 </video>
             </Col>
+            <Button size="large" className="reservation-button">
+                make a reservation
+            </Button>
+
         </div>
     );
 };

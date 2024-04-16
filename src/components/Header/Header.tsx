@@ -28,17 +28,17 @@ const Header = () => {
                 <Menu.Item key="home">
                     <Link to="/">Home</Link>
                 </Menu.Item>
-                <Menu.Item className="header-item" key="food">
-                    <Link className="header-link" to="/food-menu">Food</Link>
+                <Menu.Item  key="food">
+                    <Link  to="/food-menu">Food</Link>
                 </Menu.Item>
                 <Menu.Item key="drinks">
                     <Link to="/drinks-menu">Drinks</Link>
                 </Menu.Item>
                 <Menu.Item key="gift-card">
-                    <Link to="/gift-card">Gift Card</Link>
+                    <Link to="/gift-card">Gift Cards</Link>
                 </Menu.Item>
                 <Menu.Item key="reservations">
-                    <Link to="/reservations">Reservations</Link>
+                    <Link to="/reservations">Reservation</Link>
                 </Menu.Item>
             </Menu>
         </div>

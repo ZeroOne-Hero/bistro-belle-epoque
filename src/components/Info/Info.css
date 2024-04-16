@@ -4,25 +4,24 @@
     align-items: center;
     text-align: center;
     flex-direction: column;
-    padding: 70px 0;
+    padding: 70px 0 0 0;
     width: 100%;
+}
+.info-row {
+    margin-bottom: 70px;
 }
 .info-text {
     font-family: var(--font-primary);
 }
 
 .info-title {
-    font-size: 2.5em !important;
+    font-size:3.5em !important;
+    font-family: "Great Vibes", cursive;
 
 }
 
 .info-p {
     font-size: 1.1em !important;
-}
-
-
-.info {
-    padding: 20px;
 }
 
 .info-text {

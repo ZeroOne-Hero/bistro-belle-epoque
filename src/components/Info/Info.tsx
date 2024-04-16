@@ -1,15 +1,17 @@
 import React from 'react';
 import { Typography, Row, Col } from 'antd';
 import "./Info.css";
-import video from "../../assets/96 (1).mp4";
+import Map from "../Map/Map";
 const { Title, Paragraph, Text } = Typography;
+
+
 
 const Info = () => {
     return (
         <div className="info">
-            <Row gutter={22}>
+            <Row gutter={22} className="info-row">
                 <Col >
-                    <Title className="info-text info-title" level={3}>HOURS & LOCATION</Title>
+                    <Title className="info-text info-title" level={3}>Hours & Location</Title>
                     <Paragraph className="info-text info-p">
                         <Text strong>DINNER</Text><br />
                         Seven nights a week, 5:00–10:00 p.m.<br /><br />
@@ -29,6 +31,12 @@ const Info = () => {
                     </Paragraph>
                 </Col>
             </Row>
+            <Map
+                lat={34.0522}
+                lng={-118.2437}
+                zoom={17}
+
+            />
         </div>
     );
 };
