@@ -25,7 +25,7 @@ const Reviews = () => {
     ];
 
     return (
-        <div className="review-container">
+        <section id="reviews" className="review-container">
             <h1 className="reviews-title">They love us</h1>
 
             <Swiper className="swiper-reviews"
@@ -50,7 +50,7 @@ const Reviews = () => {
                     </SwiperSlide>
                 ))}
             </Swiper>
-        </div>
+        </section>
     );
 };
 

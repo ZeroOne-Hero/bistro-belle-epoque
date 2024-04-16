@@ -48,7 +48,7 @@ const FoodMenu: React.FC<FoodMenuProps> = ({ menuData, bgClassName, title }) => 
                             </tbody>
                         </table>
                         <div className="menu-divider">
-                        <img src={divider} alt="divider"/>
+                        {/*<img src={divider} alt="divider"/>*/}
                     </div>
                     </TabPane>
                 ))}

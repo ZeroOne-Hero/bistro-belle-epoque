@@ -4,7 +4,7 @@ background-color: black;
 
 .food-menu-bg-wrapper {
     animation: fadeIn 1s ease-out forwards;
-    height: 65vh;
+    height: 60vh;
     background-image: url('../../assets/home.jpg');
     background-size: cover;
     background-position: center;
@@ -15,7 +15,7 @@ background-color: black;
 }
 .drinks-menu-bg-wrapper {
     animation: fadeIn 1s ease-out forwards;
-    height: 65vh;
+    height: 60vh;
     background-image: url('../../assets/drinks.webp');
     background-size: cover;
     background-position: center;
@@ -46,8 +46,8 @@ background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
-   padding-top: 10px;
     background-color: #fcfcfb;
+   padding-top: 40px;
 }
 
 
@@ -85,7 +85,6 @@ background-color: black;
 
 .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
     color: #000000 !important;
-    font-weight: bolder;
 }
 
 .ant-tabs-ink-bar {
@@ -103,13 +102,6 @@ background-color: black;
 }
 
 .menu-divider {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 70px;
 }
 
-.menu-divider img{
-    height: 30px;
-    margin: 30px 0 50px 0;
-}

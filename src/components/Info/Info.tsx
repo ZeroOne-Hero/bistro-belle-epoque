@@ -8,7 +8,7 @@ const { Title, Paragraph, Text } = Typography;
 
 const Info = () => {
     return (
-        <div className="info">
+        <section id="info" className="info">
             <Row gutter={22} className="info-row">
                 <Col >
                     <Title className="info-text info-title" level={3}>Hours & Location</Title>
@@ -31,13 +31,7 @@ const Info = () => {
                     </Paragraph>
                 </Col>
             </Row>
-            <Map
-                lat={34.0522}
-                lng={-118.2437}
-                zoom={17}
-
-            />
-        </div>
+        </section>
     );
 };
 

@@ -13,7 +13,7 @@ const About = () => {
     });
 
     return (
-        <div className="about">
+        <section id="about" className="about">
             <Row className="about-row" gutter={[32, 32]} style={{ alignItems: 'center' }}>
                 <Col xs={24} sm={24} md={12} >
                     <Title className="about-title" level={2}>Our Story</Title>
@@ -39,13 +39,13 @@ const About = () => {
                         <Image
                             src={about}
                             alt="Bistro Interior"
-                            style={{ width: "auto", height: '550px' }}
+                            style={{ width: "auto", height: '550px'}}
                             preview={false}
                         />
                     </div>
                 </Col>
             </Row>
-        </div>
+        </section>
     );
 };
 

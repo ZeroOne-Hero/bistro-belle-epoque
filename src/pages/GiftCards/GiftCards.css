@@ -7,8 +7,8 @@
 }
 
 .gift-card-cards {
-    padding: 0 130px;
-    min-height: 45vh;
+    padding: 0 125px;
+    min-height: 40vh;
     background-color: #fcfcfb;
     display: flex;
     align-items: center;
@@ -21,7 +21,7 @@
     animation: fadeIn 1s ease-out forwards;
     background-size: cover;
     width: 100%;
-    height: 55vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,7 +54,7 @@
     display: block;
 }
 .overlay {
-    height: 55vh;
+    height: 60vh;
     width: 100%;
     position: absolute;
     background: var(--overlay-color);

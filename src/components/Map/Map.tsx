@@ -38,7 +38,7 @@ const MapComponent: React.FC<MapProps> = ({ lat, lng, zoom, markerOptions }) => 
         };
     }, [lat, lng, zoom, markerOptions]);
 
-    return <div ref={mapRef} style={{ height: '400px', width: '100%' }} />;
+    return <div ref={mapRef} style={{ height: '300px', width: '300px', borderRadius:'10px' }} />;
 }
 
 export default MapComponent;
