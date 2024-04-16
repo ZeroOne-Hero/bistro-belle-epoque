@@ -29,13 +29,15 @@
     background: rgba(19, 22, 19, 0.4);
 }
 
+
 .reviews-title {
     position: absolute ;
    color: white;
     z-index: 10;
     top: 70px;
     font-size: 5em;
-    font-family: "Great Vibes", cursive;;
+    font-family: "Great Vibes", cursive;
+    font-weight: 500;
 }
 
 .reviews-p {

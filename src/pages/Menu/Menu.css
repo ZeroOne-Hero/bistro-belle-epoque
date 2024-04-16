@@ -1,8 +1,9 @@
 .foodMenu {
-
+background-color: black;
 }
 
 .food-menu-bg-wrapper {
+    animation: fadeIn 1s ease-out forwards;
     height: 65vh;
     background-image: url('../../assets/home.jpg');
     background-size: cover;
@@ -13,6 +14,7 @@
     align-items: center;
 }
 .drinks-menu-bg-wrapper {
+    animation: fadeIn 1s ease-out forwards;
     height: 65vh;
     background-image: url('../../assets/drinks.webp');
     background-size: cover;
@@ -22,10 +24,11 @@
     justify-content: center;
     align-items: center;
 }
+
 .food-menu-title {
     position: absolute;
     color: white;
-    font-size: 8em;
+    font-size: 7em;
     z-index: 1;
     font-family: "Great Vibes", cursive;
 }
@@ -34,7 +37,7 @@
     height: 100%;
     width: 100%;
     position: absolute;
-    background: rgba(19, 22, 19, 0.4);
+    background: var(--overlay-color);
 }
 
 .menuTabs {
@@ -43,7 +46,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+   padding-top: 10px;
+    background-color: #fcfcfb;
 }
 
 

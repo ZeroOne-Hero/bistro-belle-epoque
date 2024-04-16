@@ -1,34 +1,22 @@
-import React, {useEffect, useRef} from 'react';
-import {Row, Col, Typography, Image} from 'antd';
+import React from 'react';
+import { Row, Col, Typography, Image } from 'antd';
+import { useInView } from 'react-intersection-observer';
 import "./About.css";
-import about from "../../assets/about.jpg"
-import { gsap } from 'gsap';
-import ScrollTrigger from 'gsap/ScrollTrigger';
-const {Title, Paragraph} = Typography;
+import about from "../../assets/about.jpg";
 
-gsap.registerPlugin(ScrollTrigger);
+const { Title, Paragraph } = Typography;
+
 const About = () => {
-    const imageRef = useRef(null);
+    const { ref, inView } = useInView({
+        triggerOnce: true,
+        threshold: 0.01
+    });
 
-    useEffect(() => {
-        gsap.from(imageRef.current, {
-            duration: 2.5,
-            x: 300,
-            autoAlpha: 0,
-            ease: 'power3.out',
-            scrollTrigger: {
-                trigger: imageRef.current,
-                start: "top bottom",
-                end: "bottom top",
-                toggleActions: "play none none reverse",
-            }
-        });
-    }, []);
     return (
         <div className="about">
-            <Row className="about-row" gutter={[32, 32]} style={{alignItems: 'center'}}>
+            <Row className="about-row" gutter={[32, 32]} style={{ alignItems: 'center' }}>
                 <Col xs={24} sm={24} md={12} >
-                    <Title className="about-titile" level={2}>Our Story</Title>
+                    <Title className="about-title" level={2}>Our Story</Title>
                     <Paragraph className="about-p">
                         Welcome to Our Bistro! Founded in the heart of the city, Our Bistro has been serving up
                         delicious meals and memorable experiences since 1998. Our commitment to quality ingredients,
@@ -47,7 +35,7 @@ const About = () => {
                     </Paragraph>
                 </Col>
                 <Col>
-                    <div ref={imageRef}>
+                    <div ref={ref} style={{ opacity: inView ? 1 : 0, transition: 'opacity 0.5s ease-in' }}>
                         <Image
                             src={about}
                             alt="Bistro Interior"

@@ -1,15 +1,18 @@
 import React from 'react';
 import { Button, Row, Col } from 'antd';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import bg2 from "../../assets/bg2.jpg"
+import bg2 from "../../assets/interior.png"
 import './Home.css';
 import 'swiper/css';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules'
 import bg3 from "../../assets/bg3.jpeg"
+import {useLocation} from "react-router-dom";
 const Home: React.FC = () => {
+    const location = useLocation();
     return (
-        <div className="home-main">
+        <div  key={location.pathname} className="home-main">
             <Swiper
+
                 modules={[Autoplay, Navigation, Pagination]}
                 spaceBetween={0}
                 slidesPerView={1}

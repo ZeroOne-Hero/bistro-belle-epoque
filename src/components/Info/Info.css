@@ -19,3 +19,12 @@
 .info-p {
     font-size: 1.1em !important;
 }
+
+
+.info {
+    padding: 20px;
+}
+
+.info-text {
+    margin-top: 20px;
+}

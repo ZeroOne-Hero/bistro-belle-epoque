@@ -27,6 +27,7 @@ const Reviews = () => {
     return (
         <div className="review-container">
             <h1 className="reviews-title">They love us</h1>
+
             <Swiper className="swiper-reviews"
                     modules={[Autoplay, Navigation, Pagination]}
                     spaceBetween={0}

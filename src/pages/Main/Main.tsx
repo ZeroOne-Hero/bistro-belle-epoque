@@ -1,9 +1,7 @@
 import React from 'react';
-import Home from "../../components/Home/Home";
-import About from "../../components/About/About";
-import Reviews from "../../components/Reviews/Reviews";
-import Info from "../../components/Info/Info";
 import "./Main.css"
+import {Home, About, Reviews, Info} from '../../components';
+
 const Main = () => {
     return (
         <div className="main">

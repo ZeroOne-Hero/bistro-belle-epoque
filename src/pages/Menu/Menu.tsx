@@ -1,6 +1,7 @@
 import React from 'react';
 import { Tabs } from 'antd';
 import './Menu.css';
+import {useLocation} from "react-router-dom";
 
 const { TabPane } = Tabs;
 
@@ -22,11 +23,13 @@ interface FoodMenuProps {
 }
 
 const FoodMenu: React.FC<FoodMenuProps> = ({ menuData, bgClassName, title }) => {
+    const location = useLocation();
     return (
         <div className="foodMenu">
-            <div className={bgClassName}>
-                <h1 className="food-menu-title">{title}</h1>
+            <div key={location.pathname} className={bgClassName}>
+            <h1 className="food-menu-title">{title}</h1>
                 <div className="food-menu-overlay"></div>
+                <div className="food-menu-bg"></div>
             </div>
             <Tabs className="menuTabs" defaultActiveKey="1" centered>
                 {Object.entries(menuData).map(([key, items], index) => (

@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { Menu } from 'antd';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
     const [isSolid, setIsSolid] = useState(false);
+    const location = useLocation();
 
     useEffect(() => {
         const handleScroll = () => {
-            setIsSolid(window.scrollY >= 50);
+            setIsSolid(window.scrollY >= 50 || location.pathname === '/reservations');
         };
 
         handleScroll();
@@ -19,12 +20,10 @@ const Header = () => {
             window.removeEventListener('scroll', handleScroll);
         };
 
-    }, []);
-
-
+    }, [location]);
 
     return (
-        <div >
+        <div>
             <Menu className={`header ${isSolid ? 'solid' : 'transparent'}`} mode="horizontal" theme="light">
                 <Menu.Item key="home">
                     <Link to="/">Home</Link>
@@ -37,9 +36,6 @@ const Header = () => {
                 </Menu.Item>
                 <Menu.Item key="gift-card">
                     <Link to="/gift-card">Gift Card</Link>
-                </Menu.Item>
-                <Menu.Item key="contact-us">
-                    <Link to="/contact">Contact Us</Link>
                 </Menu.Item>
                 <Menu.Item key="reservations">
                     <Link to="/reservations">Reservations</Link>

@@ -1,11 +1,10 @@
 import React from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import "./App.css";
-import Main from './pages/Main/Main';
-import AppLayout from "./components/AppLayout/AppLayout";
-import Menu from "./pages/Menu/Menu";
 import {foodMenuData} from './data/foodMenuData'
 import {drinksMenuData} from './data/drinksMenuData'
+import {Main, AppLayout, Menu, GiftCards} from './pages';
+import Reservations from "./pages/Reservations/Reservations";
 
 const App: React.FC = () => (
     <div className="app">
@@ -19,6 +18,8 @@ const App: React.FC = () => (
                     <Route path="/drinks-menu" element={<Menu menuData={drinksMenuData}
                                                               bgClassName="drinks-menu-bg-wrapper"
                                                               title="Drinks Menu"/>}/>
+                    <Route path="/gift-card" element={<GiftCards/>}/>
+                    <Route path="/reservations" element={<Reservations/>}/>
                 </Routes>
             </AppLayout>
         </Router>

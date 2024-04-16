@@ -1,0 +1,139 @@
+.gift-cards-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #0e0e0e;
+}
+
+.gift-card-cards {
+    padding: 0 130px;
+    min-height: 45vh;
+    background-color: #fcfcfb;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+
+.gift-card-bg {
+    background-image: url("../../assets/bg3.jpeg");
+    animation: fadeIn 1s ease-out forwards;
+    background-size: cover;
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.gift-cards-title {
+    text-align: center;
+    margin: 40px 0;
+    color: white !important;
+    font-family: var(--font-primary);
+    z-index: 1;
+}
+
+.gift-cards-intro {
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+    width: 50%;
+    font-size: 1.3em;
+    font-family: var(--font-primary);
+    z-index: 1;
+}
+
+.gift-card-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.overlay {
+    height: 55vh;
+    width: 100%;
+    position: absolute;
+    background: var(--overlay-color);
+}
+
+
+.gift-card-front {
+    transition: transform 0.3s ease;
+    height: 220px;
+}
+
+.gift-card:hover {
+    transform: translateY(-5px);
+}
+
+.gift-card-title {
+    color: #fff !important;
+    font-family: "Great Vibes", cursive;
+    font-size: 2.5em !important;
+    line-height: 0.5 !important;
+    font-weight: lighter !important;
+}
+
+.gift-card-subtitle {
+    font-size: 1.1em;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.gift-card-divider {
+    border: none;
+    height: 1px;
+    background: #fff;
+    margin: 16px 0;
+}
+
+.gift-card-desc {
+    font-size: 1.3em;
+    color: #fff;
+    font-family: var(--font-primary);
+    font-weight: bolder;
+    text-transform: uppercase;
+    line-height: 0.5;
+}
+
+
+@media (max-width: 768px) {
+    .gift-card {
+        background-size: contain;
+        padding-bottom: 56.25%;
+    }
+}
+
+
+.gift-card-flip-container {
+    perspective: 1000px;
+}
+
+.gift-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.7s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+}
+
+.gift-card-flip-container:hover .gift-card-inner {
+    transform: rotateY(180deg);
+}
+
+.gift-card-front, .gift-card-back {
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.gift-card-back {
+    transform: rotateY(180deg);
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
