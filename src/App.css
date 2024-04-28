@@ -7,6 +7,9 @@
     font-family: var(--font-primary);
     letter-spacing: 0.05em;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     background-color: #111111;

@@ -27,7 +27,7 @@ const MapComponent: React.FC<MapProps> = ({ lat, lng, zoom, markerOptions }) => 
             const tilePane = mapRef.current.querySelector('.leaflet-tile-pane');
             if (tilePane) {
 
-                (tilePane as HTMLElement).style.filter = "grayscale(100%) brightness(100%) contrast(130%)";
+                (tilePane as HTMLElement).style.filter = "grayscale(70%) brightness(100%) contrast(130%)";
             }
         }
 
@@ -38,7 +38,7 @@ const MapComponent: React.FC<MapProps> = ({ lat, lng, zoom, markerOptions }) => 
         };
     }, [lat, lng, zoom, markerOptions]);
 
-    return <div ref={mapRef} style={{ height: '300px', width: '300px', borderRadius:'10px' }} />;
+    return <div ref={mapRef} style={{ height: '230px', width: '350px', borderRadius:'5px' }} />;
 }
 
 export default MapComponent;

@@ -1,19 +1,29 @@
 .footer {
-    height: 55vh;
-    background-color: #0f0f0f;
+    height: 45vh;
     display: flex;
     align-items: center;
-    padding: 30px 50px;
+    background-image: url("../../assets/footer.jpeg");
+    background-size: cover;
+    justify-content: center;
 
 }
 .footer-wrapper {
-    width: 100%;
+    width: 95%;
+
 }
-.footer-sitemap h3 {
+.footer-overlay {
+    height: 45vh;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(7, 5, 5, 0.85);
+
+}
+.footer-title  {
     color: var(--primary-color);
-    font-size: 2em;
+    font-size: 1.7em;
     margin-bottom: 15px;
     font-weight: 500;
+    z-index: 1;
 }
 .footer-sitemap ul {
     list-style-type: none;
@@ -22,6 +32,7 @@
 
 .footer-sitemap ul li {
     margin-bottom: 8px;
+    z-index: 1;
 }
 
 .footer-sitemap ul li a {
@@ -37,6 +48,7 @@
 
 .footer-social .anticon {
     cursor: pointer;
+    z-index: 1;
 }
 
 @media (max-width: 768px) {

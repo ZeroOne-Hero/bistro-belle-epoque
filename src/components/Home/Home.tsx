@@ -1,12 +1,12 @@
 import React from 'react';
 import { Button, Row, Col } from 'antd';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import bg2 from "../../assets/interior.png"
+import bg2 from "../../assets/interior.jpeg"
 import './Home.css';
 import 'swiper/css';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules'
 import bg3 from "../../assets/bg3.jpeg"
-import {useLocation} from "react-router-dom";
+import {useLocation, Link} from "react-router-dom";
 const Home: React.FC = () => {
     const location = useLocation();
     return (
@@ -41,14 +41,18 @@ const Home: React.FC = () => {
                 <h2 className="home-sub-header">European kitchen & bar</h2>
                 <Row gutter={18} >
                     <Col>
-                        <Button type="primary" size="large" className="book-table-button">
-                            Book a Table
-                        </Button>
+                        <Link to="/reservations">
+                            <Button type="primary" size="large" className="book-table-button">
+                                Book a Table
+                            </Button>
+                        </Link>
                     </Col>
                     <Col>
-                        <Button size="large" className="make-order-button">
-                           See Menu
-                        </Button>
+                        <Link to="/food-menu">
+                            <Button size="large" className="make-order-button">
+                                See Menu
+                            </Button>
+                        </Link>
                     </Col>
                 </Row>
             </div>

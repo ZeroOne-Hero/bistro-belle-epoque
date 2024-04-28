@@ -16,7 +16,7 @@ background-color: black;
 .drinks-menu-bg-wrapper {
     animation: fadeIn 1s ease-out forwards;
     height: 60vh;
-    background-image: url('../../assets/drinks.webp');
+    background-image: url('../../assets/drinks.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -31,6 +31,7 @@ background-color: black;
     font-size: 7em;
     z-index: 1;
     font-family: "Great Vibes", cursive;
+    /*font-weight: 500;*/
 }
 
 .food-menu-overlay {
@@ -66,7 +67,7 @@ background-color: black;
 
 .menuTable td, .menuTable th {
     padding: 10px 0;
-    border-bottom: 2px dotted #d4d4d4;
+    border-bottom: 2px dotted #dfdfdf;
 }
 
 .menu-item-price {

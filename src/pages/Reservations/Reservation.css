@@ -21,10 +21,83 @@
     border: 1px solid white !important;
     height: fit-content;
     text-transform: uppercase;
-    font-size: 1.4em;
+    font-size: 1.45em;
     border-radius: 25px;
     color: white !important;
     padding: 6px 23px;
     font-weight: 500;
     position: absolute;
+}
+
+.reservation-buttons {
+    width: 100%;
+    display: flex;
+   align-items: center;
+    justify-content: center;
+}
+.reservation-cancel {
+    background-color: rgba(4, 4, 4, 0.9) ;
+    border: 1px solid white ;
+    height: fit-content;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    border-radius: 25px;
+    color: white ;
+    padding: 6px 23px;
+    font-weight: 500;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.reservation-submit {
+    background-color: var(--primary-color) ;
+    border: 1px solid black ;
+    height: fit-content;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    border-radius: 25px;
+    color: black ;
+    padding: 6px 23px;
+    font-weight: 500;
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+.reservation-form {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(15px);
+    padding: 50px 70px;
+    border-radius: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+    transform-origin: top;
+}
+
+.reservation-form.open {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.reservation-input,
+.reservation-date-picker,
+.reservation-time-picker {
+    background-color: rgba(4, 4, 4, 0.9);
+    width: 350px;
+    height: 43px;
+    margin: 10px;
+    color: var(--primary-color);
+    border-radius: 20px;
+    padding: 3px 10px;
+    border: solid white 1px;
+}
+
+.form-message {
+    color: var(--primary-color);
+    font-size: 1.2em;
+    width: 350px;
+    text-align: center;
 }
