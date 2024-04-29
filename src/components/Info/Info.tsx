@@ -1,7 +1,6 @@
 import React from 'react';
 import { Typography, Row, Col } from 'antd';
 import "./Info.css";
-import Map from "../Map/Map";
 const { Title, Paragraph, Text } = Typography;
 
 

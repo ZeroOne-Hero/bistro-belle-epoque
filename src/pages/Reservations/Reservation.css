@@ -9,11 +9,19 @@
     background-color: #0b0b0b;
     overflow: hidden
 }
+.reservation .video {
+    position: relative;
+    overflow: hidden;
+}
 
-.info-video {
+.reservation .info-video {
     width: 100vw;
     height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
     object-fit: cover;
+    pointer-events: none;
     animation: fadeIn 1s ease-out forwards;
 }
 

@@ -8,12 +8,32 @@ export const drinksMenuData = {
     ],
     cocktails: [
         {key: '6', name: 'Mojito', description: 'Minty lime rum cocktail.', price: '12'},
-        {key: '7', name: 'Cosmopolitan', description: 'Vodka, triple sec, cranberry juice, and freshly squeezed lime juice.', price: '12'},
+        {
+            key: '7',
+            name: 'Cosmopolitan',
+            description: 'Vodka, triple sec, cranberry juice, and freshly squeezed lime juice.',
+            price: '12'
+        },
         {key: '8', name: 'Pina Colada', description: 'Rum, coconut cream, and pineapple juice.', price: '11'},
-        {key: '9', name: 'Bloody Mary', description: 'Vodka, tomato juice, and other spices and flavorings.', price: '11'},
-        {key: '10', name: 'Margarita', description: 'Tequila, orange liqueur, and lime juice, served with salt on the rim.', price: '12'},
+        {
+            key: '9',
+            name: 'Bloody Mary',
+            description: 'Vodka, tomato juice, and other spices and flavorings.',
+            price: '11'
+        },
+        {
+            key: '10',
+            name: 'Margarita',
+            description: 'Tequila, orange liqueur, and lime juice, served with salt on the rim.',
+            price: '12'
+        },
         {key: '11', name: 'Old Fashioned', description: 'Bourbon, sugar, and bitters.', price: '12'},
-        {key: '12', name: 'Martini', description: 'Gin and vermouth, garnished with an olive or a lemon twist.', price: '12'},
+        {
+            key: '12',
+            name: 'Martini',
+            description: 'Gin and vermouth, garnished with an olive or a lemon twist.',
+            price: '12'
+        },
         {key: '13', name: 'Negroni', description: 'Gin, vermouth rosso, and Campari.', price: '12'}
     ],
     wine: [
@@ -27,7 +47,12 @@ export const drinksMenuData = {
         {key: '21', name: 'Prosecco', description: 'Italian sparkling white wine.', price: '11'}
     ],
     teaCoffee: [
-        {key: '22', name: 'Espresso', description: 'Strong black coffee brewed by forcing steam through ground coffee beans.', price: '3'},
+        {
+            key: '22',
+            name: 'Espresso',
+            description: 'Strong black coffee brewed by forcing steam through ground coffee beans.',
+            price: '3'
+        },
         {key: '23', name: 'Latte', description: 'Espresso with steamed milk.', price: '4'},
         {key: '24', name: 'Cappuccino', description: 'Espresso with a layer of frothy steamed milk.', price: '4'},
         {key: '25', name: 'Green Tea', description: 'Brewed from steamed tea leaves.', price: '3'},

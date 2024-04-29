@@ -15,7 +15,7 @@ const Reservations = () => {
     return (
         <div className="reservation" key={location.pathname}>
             <div className="video">
-                <video className="info-video" autoPlay muted loop>
+                <video className="info-video" autoPlay muted loop playsInline>
                     <source src={video} type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>

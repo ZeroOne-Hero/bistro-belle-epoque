@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Button } from 'antd';
+import { Row, Col } from 'antd';
 import { FacebookOutlined, XOutlined, InstagramOutlined } from '@ant-design/icons';
 import Map from "../Map/Map";
 import "./Footer.css";
@@ -28,7 +28,6 @@ const Footer = () => {
                         <XOutlined style={{ fontSize: '27px', margin: '0 15px', color: 'white' }} />
                         <InstagramOutlined style={{ fontSize: '27px', margin: '0 15px', color: 'white' }} />
                     </div>
-                    {/*<Button type="primary" href="/reservation" style={{ marginTop: '10px' }}>Make a Reservation</Button>*/}
                 </Col>
                 <Col className="footer-map">
                     <div>

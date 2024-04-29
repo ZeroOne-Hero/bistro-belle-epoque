@@ -71,6 +71,7 @@
 @media screen and (max-width: 400px) {
     .footer {
         height: 850px;
+        background-attachment: scroll;
     }
     .footer-overlay {
         height: 850px;
@@ -92,6 +93,7 @@
 @media (min-width: 401px) and (max-width: 480px) {
     .footer {
         height: 850px;
+        background-attachment: scroll;
     }
     .footer-overlay {
         height: 850px;
@@ -115,6 +117,7 @@
 
     .footer {
         height: 850px;
+        background-attachment: scroll;
     }
     .footer-overlay {
         height: 850px;
@@ -138,6 +141,7 @@
 
     .footer {
         height: 650px;
+        background-attachment: scroll;
     }
     .footer-overlay {
         height: 650px;
@@ -153,18 +157,25 @@
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-
+    .footer {
+        background-attachment: scroll;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-
+    .footer {
+        background-attachment: scroll;
+    }
 }
 
-@media (min-width: 1200px) {
-
+@media (min-width: 1201px) and (max-width: 1400px) {
+    .footer {
+        background-attachment: scroll;
+    }
 }
 
 @media (min-width: 1700px) {
+
 }
 
 @media (max-width: 768px) {

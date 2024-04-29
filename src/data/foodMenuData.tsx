@@ -120,7 +120,7 @@ export const foodMenuData = {
             description: 'Layers of espresso-soaked ladyfingers and mascarpone cheese, dusted with cocoa powder.',
             price: '8'
         },
-        {key: '20', name: 'Panna Cotta', description: 'Silky smooth cream pudding with berry coulis.', price: '$10'},
+        {key: '20', name: 'Panna Cotta', description: 'Silky smooth cream pudding with berry coulis.', price: '10'},
         {
             key: '21',
             name: 'Lemon Tart',
