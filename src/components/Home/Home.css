@@ -84,7 +84,8 @@ overflow: hidden
     }
 
     .home-header {
-        font-size: 3.1em;
+        font-size: 3em;
+        width: 350px;
     }
 
     .home-sub-header {
@@ -105,7 +106,7 @@ overflow: hidden
     }
 
     .home-header {
-        font-size: 3.2em;
+        font-size: 3.3em;
     }
 
     .home-sub-header {
