@@ -9,7 +9,7 @@
 
 .gift-card-cards {
     padding: 0 140px;
-    min-height: 40vh;
+    min-height: calc(100vh - 500px);
     background-color: #fcfcfb;
     display: flex;
     align-items: center;
