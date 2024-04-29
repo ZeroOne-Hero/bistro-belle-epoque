@@ -53,7 +53,9 @@
     background-color: #0b0b0b !important;
 }
 
-
+.ant-menu-item-selected {
+    background-color: transparent !important;
+}
 .header .anticon-ellipsis svg {
     fill: #ffffff;
 }
@@ -70,9 +72,6 @@
     .ant-menu-title-content {
         font-size: 1.2em !important;
     }
-    .ant-menu-item-selected {
-        background-color: #1f1f1f !important;
-    }
 }
 @media (min-width: 401px) and (max-width: 480px) {
     .header {
@@ -85,9 +84,6 @@
 
     .ant-menu-title-content {
         font-size: 1.4em !important;
-    }
-    .ant-menu-item-selected {
-        background-color: #1f1f1f !important;
     }
 }
 
@@ -103,9 +99,7 @@
     .ant-menu-title-content {
         font-size: 1.4em !important;
     }
-    .ant-menu-item-selected {
-        background-color: #1f1f1f !important;
-    }
+
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -120,9 +114,7 @@
     .ant-menu-title-content {
         font-size: 1.4em !important;
     }
-    .ant-menu-item-selected {
-        background-color: #1f1f1f !important;
-    }
+
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -132,9 +124,7 @@
         margin: 7px 10px;
         height: 75px;
     }
-    .ant-menu-item-selected {
-        background-color: #1f1f1f !important;
-    }
+
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
