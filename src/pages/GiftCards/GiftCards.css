@@ -4,6 +4,7 @@
     align-items: center;
     flex-direction: column;
     background: #0e0e0e;
+    overflow: hidden
 }
 
 .gift-card-cards {
@@ -13,7 +14,6 @@
     display: flex;
     align-items: center;
     width: 100%;
-
 }
 
 .gift-card-bg {
@@ -26,8 +26,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
-
 }
 
 .gift-cards-title {
@@ -84,13 +82,6 @@
     opacity: 0.8;
 }
 
-.gift-card-divider {
-    border: none;
-    height: 1px;
-    background: #fff;
-    margin: 16px 0;
-}
-
 .gift-card-desc {
     font-size: 1.3em;
     color: #fff;
@@ -99,15 +90,6 @@
     text-transform: uppercase;
     line-height: 0.5;
 }
-
-
-@media (max-width: 768px) {
-    .gift-card {
-        background-size: contain;
-        padding-bottom: 56.25%;
-    }
-}
-
 
 .gift-card-flip-container {
     perspective: 1000px;
@@ -137,3 +119,110 @@
     transition: transform 0.3s ease;
 }
 
+@media screen and (max-width: 400px) {
+    .gift-cards-intro {
+        width: 80%;
+        font-size: 1.15em;
+    }
+    .gift-card-cards {
+        padding: 20px 30px;
+    }
+    .gift-card-bg {
+        height: 50vh;
+    }
+    .overlay {
+        height: 50vh;
+    }
+}
+@media (min-width: 401px) and (max-width: 480px) {
+    .gift-cards-intro {
+        width: 80%;
+        font-size: 1.15em;
+    }
+    .gift-card-cards {
+        padding: 20px 30px;
+    }
+    .gift-card-bg {
+        height: 50vh;
+    }
+    .overlay {
+        height: 50vh;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 576px) {
+
+    .gift-cards-intro {
+        width: 80%;
+        font-size: 1.15em;
+    }
+    .gift-card-cards {
+        padding: 20px 30px;
+    }
+    .gift-card-bg {
+        height: 50vh;
+    }
+    .overlay {
+        height: 50vh;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .gift-cards-intro {
+        width: 80%;
+    }
+    .gift-card-cards {
+        padding: 20px 20px;
+    }
+    .gift-card-bg {
+        height: 60vh;
+    }
+    .overlay {
+        height: 60vh;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .gift-cards-intro {
+        width: 80%;
+    }
+    .gift-card-cards {
+        padding: 20px 20px;
+    }
+    .gift-card-bg {
+        height: 60vh;
+    }
+    .overlay {
+        height: 60vh;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .gift-card-cards {
+        padding: 20px 20px;
+    }
+    .gift-card-bg {
+        height: 60vh;
+    }
+    .overlay {
+        height: 60vh;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+
+    .gift-card-cards {
+        padding: 20px 20px;
+    }
+    .gift-card-bg {
+        height: 60vh;
+    }
+    .overlay {
+        height: 60vh;
+    }
+}
+
+@media (min-width: 1700px) {
+}

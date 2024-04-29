@@ -1,18 +1,22 @@
 .footer {
-    height: 45vh;
+    height: 370px;
     display: flex;
     align-items: center;
     background-image: url("../../assets/footer.jpeg");
     background-size: cover;
     justify-content: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden
 
 }
 .footer-wrapper {
     width: 95%;
+    padding-bottom: 55px;
 
 }
 .footer-overlay {
-    height: 45vh;
+    height: 370px;
     width: 100%;
     position: absolute;
     background-color: rgba(7, 5, 5, 0.85);
@@ -49,6 +53,118 @@
 .footer-social .anticon {
     cursor: pointer;
     z-index: 1;
+}
+
+.copywright {
+    width: 100%;
+    height: 55px;
+    position: absolute ;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copywright {
+    color: #e5e5e5;
+    font-size: 0.8em;
+}
+@media screen and (max-width: 400px) {
+    .footer {
+        height: 850px;
+    }
+    .footer-overlay {
+        height: 850px;
+    }
+    .footer-map {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .footer-social-wrapper {
+        margin-top: 50px;
+    }
+    .footer-sitemap ul li a {
+        font-size: 1.3em;
+    }
+}
+@media (min-width: 401px) and (max-width: 480px) {
+    .footer {
+        height: 850px;
+    }
+    .footer-overlay {
+        height: 850px;
+    }
+    .footer-map {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .footer-social-wrapper {
+        margin-top: 50px;
+    }
+    .footer-sitemap ul li a {
+        font-size: 1.3em;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 576px) {
+
+    .footer {
+        height: 850px;
+    }
+    .footer-overlay {
+        height: 850px;
+    }
+    .footer-map {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .footer-social-wrapper {
+        margin-top: 50px;
+    }
+    .footer-sitemap ul li a {
+        font-size: 1.3em;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .footer {
+        height: 650px;
+    }
+    .footer-overlay {
+        height: 650px;
+    }
+    .footer-map {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1700px) {
 }
 
 @media (max-width: 768px) {

@@ -1,5 +1,6 @@
 .about {
-    padding: 100px 100px;
+    padding: 120px 100px 150px 100px;
+    overflow: hidden;
 }
 
 .about-row {
@@ -11,6 +12,8 @@
 .about-title {
     font-family: "Great Vibes", cursive;
     font-size: 5em !important;
+    width: 100%;
+    text-align: center;
 }
 
 .about-p {
@@ -18,4 +21,151 @@
     padding: 0 0 0 10px;
     text-align: justify;
     font-family: var(--font-primary);
+}
+
+
+@media screen and (max-width: 400px) {
+    .about {
+        padding: 50px 30px;
+    }
+
+    .about-title {
+        font-size: 4em !important;
+    }
+
+    .about-p {
+        font-size: 1.2em !important;
+    }
+
+    .about-text {
+        order: 1;
+    }
+
+    .about-image {
+        order: 2;
+        width: 330px !important;
+
+    }
+}
+@media (min-width: 401px) and (max-width: 480px) {
+    .about {
+        padding: 50px 30px;
+    }
+
+    .about-title {
+        font-size: 4.5em !important;
+    }
+
+    .about-p {
+        font-size: 1.2em !important;
+    }
+
+    .about-text {
+        order: 1;
+    }
+
+    .about-image {
+        order: 2;
+        width: 350px !important;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 576px) {
+    .about {
+        padding: 50px 30px;
+    }
+
+    .about-title {
+        font-size: 4.8em !important;
+    }
+
+    .about-p {
+        font-size: 1.3em !important;
+    }
+
+    .about-text {
+        order: 1;
+    }
+
+    .about-image {
+        order: 2;
+        width: 390px !important;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .about {
+        padding: 50px;
+    }
+
+    .about-title {
+        font-size: 5em !important;
+    }
+
+    .about-p {
+        font-size: 1.3em !important;
+    }
+
+    .about-text {
+        order: 1;
+    }
+
+    .about-image {
+        order: 2;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .about {
+        padding: 50px;
+    }
+
+    .about-title {
+        font-size: 5em !important;
+    }
+
+    .about-p {
+        font-size: 1.3em !important;
+    }
+
+    .about-text {
+        order: 1;
+    }
+
+    .about-image {
+        order: 2;
+        width: 320px !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .about {
+        padding: 50px;
+    }
+
+    .about-title {
+        font-size: 5em !important;
+    }
+
+    .about-p {
+        font-size: 1.3em !important;
+    }
+
+    .about-text {
+        order: 1;
+    }
+
+    .about-image {
+        order: 2;
+        width: 400px !important;
+    }
+}
+
+@media (min-width: 1300px) and (max-width: 1400px) {
+
+}
+
+@media (min-width: 1700px) {
 }

@@ -7,6 +7,7 @@
     align-items: center;
     justify-content: center;
     background-color: #0b0b0b;
+    overflow: hidden
 }
 
 .info-video {
@@ -100,4 +101,36 @@
     font-size: 1.2em;
     width: 350px;
     text-align: center;
+}
+@media screen and (max-width: 400px) {
+
+
+}
+@media (min-width: 401px) and (max-width: 480px) {
+
+}
+
+@media (min-width: 481px) and (max-width: 576px) {
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1700px) {
 }

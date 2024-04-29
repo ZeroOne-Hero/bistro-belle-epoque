@@ -1,3 +1,36 @@
 .main {
     background-color: white;
+    overflow: hidden
+}
+@media screen and (max-width: 400px) {
+
+
+}
+@media (min-width: 401px) and (max-width: 480px) {
+
+}
+
+@media (min-width: 481px) and (max-width: 576px) {
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1700px) {
 }

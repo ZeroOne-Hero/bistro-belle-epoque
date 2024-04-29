@@ -9,6 +9,7 @@ const Main = () => {
             <About/>
             <Reviews/>
             <Info/>
+
         </div>
     );
 };

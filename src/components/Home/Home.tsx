@@ -25,13 +25,13 @@ const Home: React.FC = () => {
                 <SwiperSlide>
                     <div className="image-wrapper">
                         <div className="image-overlay"></div>
-                        <div style={{ backgroundImage: `url(${bg3})`, backgroundSize: 'cover',  height: '100vh', }} />
+                        <div style={{ backgroundImage: `url(${bg3})`, backgroundPosition:'center', backgroundSize: 'cover',  height: '100vh', }} />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="image-wrapper">
                         <div className="image-overlay"></div>
-                        <div style={{ backgroundImage: `url(${bg2})`, backgroundSize: 'cover', height: '100vh' }} />
+                        <div style={{ backgroundImage: `url(${bg2})`, backgroundPosition:'center', backgroundSize: 'cover', height: '100vh' }} />
                     </div>
                 </SwiperSlide>
             </Swiper>

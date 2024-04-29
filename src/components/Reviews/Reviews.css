@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     position: relative ;
+    overflow: hidden
 }
 .swiper-reviews {
     height: 450px;
@@ -16,7 +17,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     color: white;
     font-size: 1.7em;
 }
@@ -32,7 +32,7 @@
 
 .reviews-title {
     position: absolute ;
-   color: white;
+    color: white;
     z-index: 10;
     top: 70px;
     font-size: 5em;
@@ -43,4 +43,64 @@
 .reviews-p {
     z-index: 10;
     padding-top: 100px;
+}
+@media screen and (max-width: 400px) {
+    .reviews-title {
+        font-size:4em;
+    }
+    .swiper-reviews-each {
+        font-size: 1.4em;
+        padding: 0 30px;
+    }
+
+}
+@media (min-width: 401px) and (max-width: 480px) {
+    .reviews-title {
+        font-size:4.3em;
+    }
+    .swiper-reviews-each {
+        font-size: 1.5em;
+        padding: 0 30px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 576px) {
+    .reviews-title {
+        font-size:4.3em;
+    }
+    .swiper-reviews-each {
+        font-size: 1.5em;
+        padding: 0 30px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .reviews-title {
+        font-size:4.3em;
+    }
+    .swiper-reviews-each {
+        font-size: 1.5em;
+        padding: 0 50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .swiper-reviews-each {
+
+        padding: 0 50px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1700px) {
 }

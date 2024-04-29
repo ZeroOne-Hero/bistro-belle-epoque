@@ -18,13 +18,10 @@ const Footer = () => {
                             <li><a href="/drinks-menu">Drinks Menu</a></li>
                             <li><a href="/gift-card">Gift Cards</a></li>
                             <li><a href="/reservations">Reservation</a></li>
-                            {/*<li><a href="#about">About Us</a></li>*/}
-                            {/*<li><a href="#info">Hours and Location</a></li>*/}
-                            {/*<li><a href="#reviews">Reviews</a></li>*/}
                         </ul>
                     </div>
                 </Col>
-                <Col xs={24} sm={12} md={8} style={{ textAlign: 'center' }}>
+                <Col className="footer-social-wrapper" xs={24} sm={12} md={6} style={{ textAlign: 'center' }}>
                     <h3 className="footer-title">SOCIAL</h3>
                     <div className="footer-social">
                         <FacebookOutlined style={{ fontSize: '27px', margin: '0 15px', color: 'white' }} />
@@ -33,8 +30,8 @@ const Footer = () => {
                     </div>
                     {/*<Button type="primary" href="/reservation" style={{ marginTop: '10px' }}>Make a Reservation</Button>*/}
                 </Col>
-                <Col >
-                    <div >
+                <Col className="footer-map">
+                    <div>
                         <Map
                             lat={34.0522}
                             lng={-118.2437}
@@ -43,6 +40,9 @@ const Footer = () => {
                     </div>
                 </Col>
             </Row>
+            <div className="copywright">
+                <p>Copyright © 2024</p>
+            </div>
         </div>
     );
 };

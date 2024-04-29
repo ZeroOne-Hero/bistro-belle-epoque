@@ -12,6 +12,7 @@
     align-items: center;
     padding: 0 50px;
     z-index: 1000;
+    overflow: hidden
 }
 
 .ant-menu-title-content {
@@ -26,7 +27,7 @@
 
 .header.solid {
     backdrop-filter: blur(15px);
-    background-color: rgba(13, 13, 13, 0.87);
+    background-color: rgba(6, 6, 6, 0.90);
 }
 
 
@@ -36,9 +37,103 @@
 }
 
 
-.ant-menu-horizontal > .ant-menu-item-selected::after,
 .ant-menu-horizontal > .ant-menu-item:hover::after,
-.ant-menu-horizontal > .ant-menu-item:focus::after {
+.ant-menu-horizontal > .ant-menu-item:focus::after,
+.ant-menu-horizontal > .ant-menu-item-selected::after,
+.ant-menu-horizontal > .ant-menu-submenu:hover::after,
+.ant-menu-horizontal > .ant-menu-submenu:focus::after,
+.ant-menu-horizontal > .ant-menu-submenu-selected::after {
     border-bottom: 2px solid #ffffff !important;
 }
+.ant-menu-item-only-child {
+    background-color: transparent;
+}
 
+.ant-menu-sub {
+    background-color: #0b0b0b !important;
+}
+
+.ant-menu-item-selected {
+    background-color: #1f1f1f !important;
+}
+.header .anticon-ellipsis svg {
+    fill: #ffffff;
+}
+
+@media screen and (max-width: 400px) {
+    .header {
+        left: 0;
+        right: 0;
+        margin: 7px 10px;
+        height: 75px;
+        padding: 0 20px;
+    }
+
+    .ant-menu-title-content {
+        font-size: 1.2em !important;
+    }
+}
+@media (min-width: 401px) and (max-width: 480px) {
+    .header {
+        left: 0;
+        right: 0;
+        margin: 7px 10px;
+        height: 75px;
+        padding: 0 20px;
+    }
+
+    .ant-menu-title-content {
+        font-size: 1.4em !important;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 576px) {
+    .header {
+        left: 0;
+        right: 0;
+        margin: 7px 10px;
+        height: 75px;
+        padding: 0 35px;
+    }
+
+    .ant-menu-title-content {
+        font-size: 1.4em !important;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .header {
+        left: 0;
+        right: 0;
+        margin: 7px 10px;
+        height: 75px;
+        padding: 0 35px;
+    }
+
+    .ant-menu-title-content {
+        font-size: 1.4em !important;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .header {
+        left: 0;
+        right: 0;
+        margin: 7px 10px;
+        height: 75px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1700px) {
+}

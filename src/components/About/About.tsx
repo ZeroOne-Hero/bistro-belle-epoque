@@ -15,8 +15,8 @@ const About = () => {
     return (
         <section id="about" className="about">
             <Row className="about-row" gutter={[32, 32]} style={{ alignItems: 'center' }}>
-                <Col xs={24} sm={24} md={12} >
-                    <Title className="about-title" level={2}>Our Story</Title>
+                <Title className="about-title" level={2}>Our Story</Title>
+                <Col xs={24} sm={24} md={12}  className="about-text">
                     <Paragraph className="about-p">
                         Welcome to Our Bistro! Founded in the heart of the city, Our Bistro has been serving up
                         delicious meals and memorable experiences since 1998. Our commitment to quality ingredients,
@@ -39,8 +39,9 @@ const About = () => {
                         <Image
                             src={about}
                             alt="Bistro Interior"
-                            style={{ width: "auto", height: '550px'}}
+                            style={{ width: "400px"}}
                             preview={false}
+                            className="about-image"
                         />
                     </div>
                 </Col>

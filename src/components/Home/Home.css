@@ -6,6 +6,7 @@
     align-items: center;
     flex-direction: column;
     background-color: black;
+overflow: hidden
 }
 
 .swiper {
@@ -35,6 +36,7 @@
     flex-direction: column;
     position: absolute;
     z-index: 1;
+    min-width: 390px;
 }
 
 .home-header {
@@ -76,4 +78,109 @@
     font-weight: 500;
 }
 
+@media screen and (max-width: 400px) {
+    .home-headers-wrapper {
+        padding: 10px;
+    }
 
+    .home-header {
+        font-size: 3.1em;
+    }
+
+    .home-sub-header {
+        font-size: 1.8em;
+    }
+    .ant-btn.book-table-button {
+        font-size: 1.2em;
+    }
+
+    .ant-btn.make-order-button {
+        font-size: 1.2em;
+    }
+
+}
+@media (min-width: 401px) and (max-width: 480px) {
+    .home-headers-wrapper {
+        padding: 10px;
+    }
+
+    .home-header {
+        font-size: 3.3em;
+    }
+
+    .home-sub-header {
+        font-size: 2em;
+    }
+    .ant-btn.book-table-button {
+        font-size: 1.4em;
+    }
+
+    .ant-btn.make-order-button {
+        font-size: 1.4em;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 576px) {
+    .home-headers-wrapper {
+        padding: 10px;
+    }
+
+    .home-header {
+        font-size: 3.7em;
+    }
+
+    .home-sub-header {
+        font-size: 2.25em;
+    }
+    .ant-btn.book-table-button {
+        font-size: 1.65em;
+    }
+
+    .ant-btn.make-order-button {
+        font-size: 1.65em;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .home-headers-wrapper {
+        padding: 10px;
+    }
+
+    .home-header {
+        font-size:4.2em;
+    }
+
+    .home-sub-header {
+        font-size: 2.25em;
+    }
+    .ant-btn.book-table-button {
+        font-size: 1.75em;
+    }
+
+    .ant-btn.make-order-button {
+        font-size: 1.75em;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+
+    .home-header {
+        font-size: 5em;
+    }
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1700px) {
+}
