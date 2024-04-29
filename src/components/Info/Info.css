@@ -29,20 +29,30 @@
     margin-top: 20px;
 }
 @media screen and (max-width: 400px) {
-
+    .info {
+        padding: 70px 0 10px 0;
+    }
 
 }
 @media (min-width: 401px) and (max-width: 480px) {
+    .info {
+        padding: 70px 0 10px 0;
+    }
 
 }
 
 @media (min-width: 481px) and (max-width: 576px) {
+    .info {
+        padding: 70px 0 10px 0;
+    }
 
 
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-
+    .info {
+        padding: 70px 0 10px 0;
+    }
 
 }
 

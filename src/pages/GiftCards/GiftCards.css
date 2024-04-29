@@ -19,6 +19,7 @@
 .gift-card-bg {
     background-image: url("../../assets/bg3.jpeg");
     animation: fadeIn 1s ease-out forwards;
+    background-position: center;
     background-size: cover;
     width: 100%;
     height: 500px;

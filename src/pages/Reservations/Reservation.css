@@ -83,6 +83,10 @@
     visibility: hidden;
     transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
     transform-origin: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .reservation-form.open {
@@ -111,15 +115,44 @@
     text-align: center;
 }
 @media screen and (max-width: 400px) {
-
-
+    .reservation-input,
+    .reservation-date-picker,
+    .reservation-time-picker {
+        width: 270px;
+    }
+    .reservation-form {
+        padding: 30px 40px;
+    }
+    .form-message {
+        width: 270px;
+    }
 }
 @media (min-width: 401px) and (max-width: 480px) {
-
+    .reservation-input,
+    .reservation-date-picker,
+    .reservation-time-picker {
+        width: 290px;
+    }
+    .reservation-form {
+        padding: 40px 50px;
+    }
+    .form-message {
+        width: 290px;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 576px) {
-
+    .reservation-input,
+    .reservation-date-picker,
+    .reservation-time-picker {
+        width: 290px;
+    }
+    .reservation-form {
+        padding: 40px 50px;
+    }
+    .form-message {
+        width: 290px;
+    }
 
 }
 
