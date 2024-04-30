@@ -2,7 +2,7 @@ export { default as about } from './about.jpg';
 export { default as bgMain } from './bgmain.jpeg';
 export { default as brunch4} from './brunch4.png';
 export { default as brunch4b } from './brunch-4-b.png';
-export { default as dinner2 } from './dinner-2.png';
+export { default as dinner2 } from './dinner2.png';
 export { default as dinner2b } from './dinner-2-b.png';
 export { default as dinner4 } from './brunch4.png';
 export { default as dinner4b } from './dinner-4-b.png';
