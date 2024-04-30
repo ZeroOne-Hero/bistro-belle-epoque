@@ -28,6 +28,8 @@
 .info-text {
     margin-top: 20px;
 }
+
+
 @media screen and (max-width: 400px) {
     .info {
         padding: 70px 0 10px 0;

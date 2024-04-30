@@ -19,14 +19,14 @@ const Info = () => {
                         <Text strong>APERITIVO</Text><br />
                         Sundays, 3:00–5:00<br /><br />
                         <Text strong>ADDRESS</Text><br />
-                       address<br />
-                        address<br />
-                        desc<br /><br />
+                       242 William St.<br />
+                        Northbridge WA<br />
+                        6003, Australia<br /><br />
                     </Paragraph>
                     <Title level={4}>RESERVATIONS</Title>
                     <Paragraph className="info-text info-p">
                         Reservations open 30 days in advance.<br />
-                        For groups of 5+ guests, please email <a href="mailto:info@restaurant.nyc">info@restaurant.nyc</a>
+                        For groups of 5+ guests, please email info@belleepoque.au
                     </Paragraph>
                 </Col>
             </Row>
