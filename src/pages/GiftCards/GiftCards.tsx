@@ -1,21 +1,16 @@
 import React from 'react';
 import {Row, Col, Typography} from 'antd';
 import './GiftCards.css';
-import dinner2 from "../../assets/dinner2.png";
-import dinner4 from "../../assets/dinner4.png";
-import brunch4 from "../../assets/brunch4.png";
-import dinner2b from "../../assets/dinner-2-b.png";
-import dinner4b from "../../assets/dinner-4-b.png"
-import brunch4b from "../../assets/brunch-4-b.png"
+import * as images from "../../assets";
 import {useLocation} from "react-router-dom";
 
 const {Title, Paragraph} = Typography;
 
 const GiftCards: React.FC = () => {
     const cards = [
-        {front: dinner2, back: dinner2b},
-        {front: dinner4, back: dinner4b},
-        {front: brunch4, back: brunch4b},
+        {front: images.dinner2, back: images.dinner2b},
+        {front: images.dinner4, back: images.dinner4b},
+        {front: images.brunch4, back: images.brunch4b},
     ];
     const location = useLocation();
     return (

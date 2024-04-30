@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'antd';
 import { FacebookOutlined, XOutlined, InstagramOutlined } from '@ant-design/icons';
-import Map from "../Map/Map";
+import {Map} from "../../components";
 import "./Footer.css";
 
 const Footer = () => {
@@ -32,8 +32,8 @@ const Footer = () => {
                 <Col className="footer-map">
                     <div>
                         <Map
-                            lat={34.0522}
-                            lng={-118.2437}
+                            lat={-31.9482297}
+                            lng={115.8599683}
                             zoom={17}
                         />
                     </div>

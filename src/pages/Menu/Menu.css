@@ -6,7 +6,7 @@
 .food-menu-bg-wrapper {
     animation: fadeIn 1s ease-out forwards;
     height: 500px;
-    background-image: url('../../assets/home.jpg');
+    background-image: url('../../assets/food.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -108,21 +108,31 @@
 }
 
 @media screen and (max-width: 400px) {
+    .food-menu-bg-wrapper {
+        background-image: url('../../assets/mobile/food-min.jpg');
+    }
+
+    .drinks-menu-bg-wrapper {
+        background-image: url('../../assets/mobile/drinks-min.jpg');
+    }
 
     .food-menu-title {
-        font-size:4.5em;
+        font-size: 4.5em;
     }
 
     .ant-tabs-tab-btn {
         font-size: 1em;
     }
+
     .ant-tabs-tab {
         margin: 10px !important;
     }
+
     .menuTable {
         min-width: auto;
         padding: 0 30px;
     }
+
     .menu-item-name {
         font-size: 1.3em;
     }
@@ -139,21 +149,31 @@
 }
 
 @media (min-width: 401px) and (max-width: 480px) {
+    .food-menu-bg-wrapper {
+        background-image: url('../../assets/mobile/food-min.jpg');
+    }
+
+    .drinks-menu-bg-wrapper {
+        background-image: url('../../assets/mobile/drinks-min.jpg');
+    }
 
     .food-menu-title {
-        font-size:4.5em;
+        font-size: 4.5em;
     }
 
     .ant-tabs-tab-btn {
         font-size: 1.15em;
     }
+
     .ant-tabs-tab {
         margin: 10px !important;
     }
+
     .menuTable {
         min-width: auto;
         padding: 0 30px;
     }
+
     .menu-item-name {
         font-size: 1.4em;
     }
@@ -170,21 +190,31 @@
 }
 
 @media (min-width: 481px) and (max-width: 576px) {
+    .food-menu-bg-wrapper {
+        background-image: url('../../assets/mobile/food-min.jpg');
+    }
+
+    .drinks-menu-bg-wrapper {
+        background-image: url('../../assets/mobile/drinks-min.jpg');
+    }
 
     .food-menu-title {
-        font-size:5em;
+        font-size: 5em;
     }
 
     .ant-tabs-tab-btn {
         font-size: 1.3em;
     }
+
     .ant-tabs-tab {
         margin: 10px !important;
     }
+
     .menuTable {
         min-width: auto;
         padding: 0 30px;
     }
+
     .menu-item-name {
         font-size: 1.5em;
     }
@@ -201,21 +231,31 @@
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
+    .food-menu-bg-wrapper {
+        background-image: url('../../assets/mobile/food-min.jpg');
+    }
+
+    .drinks-menu-bg-wrapper {
+        background-image: url('../../assets/mobile/drinks-min.jpg');
+    }
 
     .food-menu-title {
-        font-size:5em;
+        font-size: 5em;
     }
 
     .ant-tabs-tab-btn {
         font-size: 1.5em;
     }
+
     .ant-tabs-tab {
         margin: 10px !important;
     }
+
     .menuTable {
         min-width: auto;
         padding: 0 30px;
     }
+
     .menu-item-name {
         font-size: 1.5em;
     }
@@ -229,6 +269,7 @@
         font-size: 1.3em;
 
     }
+
     .menuTable {
         margin: 20px 0;
         width: 90vw;
@@ -236,21 +277,31 @@
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
+    .food-menu-bg-wrapper {
+        background-image: url('../../assets/mobile/food-min.jpg');
+    }
+
+    .drinks-menu-bg-wrapper {
+        background-image: url('../../assets/mobile/drinks-min.jpg');
+    }
 
     .food-menu-title {
-        font-size:5em;
+        font-size: 5em;
     }
 
     .ant-tabs-tab-btn {
         font-size: 1.5em;
     }
+
     .ant-tabs-tab {
         margin: 10px !important;
     }
+
     .menuTable {
         min-width: auto;
         padding: 0 30px;
     }
+
     .menu-item-name {
         font-size: 1.5em;
     }
@@ -264,6 +315,7 @@
         font-size: 1.3em;
 
     }
+
     .menuTable {
         margin: 20px 0;
         width: 90vw;

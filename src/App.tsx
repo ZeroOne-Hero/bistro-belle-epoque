@@ -3,9 +3,8 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import "./App.css";
 import {foodMenuData} from './data/foodMenuData'
 import {drinksMenuData} from './data/drinksMenuData'
-import {Main, AppLayout, Menu, GiftCards} from './pages';
-import Reservations from "./pages/Reservations/Reservations";
-import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
+import {Main, AppLayout, Menu, GiftCards, Reservations} from './pages';
+import {ScrollToTop} from './components';
 const App: React.FC = () => (
     <div className="app">
         <Router>

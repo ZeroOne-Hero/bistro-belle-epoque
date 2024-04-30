@@ -72,6 +72,7 @@
     .footer {
         height: 850px;
         background-attachment: scroll;
+        background-image: url("../../assets/mobile/footer-min.jpeg");
     }
     .footer-overlay {
         height: 850px;
@@ -94,6 +95,7 @@
     .footer {
         height: 850px;
         background-attachment: scroll;
+        background-image: url("../../assets/mobile/footer-min.jpeg");
     }
     .footer-overlay {
         height: 850px;
@@ -118,6 +120,7 @@
     .footer {
         height: 850px;
         background-attachment: scroll;
+        background-image: url("../../assets/mobile/footer-min.jpeg");
     }
     .footer-overlay {
         height: 850px;
@@ -142,6 +145,7 @@
     .footer {
         height: 650px;
         background-attachment: scroll;
+        background-image: url("../../assets/mobile/footer-min.jpeg");
     }
     .footer-overlay {
         height: 650px;
@@ -159,6 +163,7 @@
 @media (min-width: 768px) and (max-width: 992px) {
     .footer {
         background-attachment: scroll;
+        background-image: url("../../assets/mobile/footer-min.jpeg");
     }
 }
 

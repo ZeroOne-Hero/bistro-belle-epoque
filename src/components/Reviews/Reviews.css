@@ -68,6 +68,9 @@
     .swiper-reviews {
         background-attachment: scroll;
     }
+    .swiper-reviews {
+        background-image: url("../../assets/mobile/reviews-min.jpeg");
+    }
 }
 
 @media (min-width: 481px) and (max-width: 576px) {
@@ -80,6 +83,9 @@
     }
     .swiper-reviews {
         background-attachment: scroll;
+    }
+    .swiper-reviews {
+        background-image: url("../../assets/mobile/reviews-min.jpeg");
     }
 }
 
@@ -95,6 +101,9 @@
     .swiper-reviews {
         background-attachment: scroll;
     }
+    .swiper-reviews {
+        background-image: url("../../assets/mobile/reviews-min.jpeg");
+    }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -105,6 +114,9 @@
     }
     .swiper-reviews {
         background-attachment: scroll;
+    }
+    .swiper-reviews {
+        background-image: url("../../assets/mobile/reviews-min.jpeg");
     }
 }
 
