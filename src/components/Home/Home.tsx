@@ -49,7 +49,7 @@ const Home: React.FC = () => {
                     <div className="image-wrapper">
                         <div className="image-overlay"></div>
                         <div style={{
-                            backgroundImage: `url(${isSmallScreen ? images.bgMainMin : images.bgMain})`,
+                            backgroundImage: `url(${isSmallScreen ? images.interiorMin : images.interior})`,
                             backgroundPosition: 'center',
                             backgroundSize: 'cover',
                             height: '100vh',
