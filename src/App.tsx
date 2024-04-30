@@ -5,10 +5,11 @@ import {foodMenuData} from './data/foodMenuData'
 import {drinksMenuData} from './data/drinksMenuData'
 import {Main, AppLayout, Menu, GiftCards} from './pages';
 import Reservations from "./pages/Reservations/Reservations";
-
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 const App: React.FC = () => (
     <div className="app">
         <Router>
+            <ScrollToTop />
             <AppLayout>
                 <Routes>
                     <Route path="/" element={<Main/>}/>

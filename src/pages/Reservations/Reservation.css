@@ -26,13 +26,13 @@
 }
 
 .reservation-button {
-    background-color: rgba(4, 4, 4, 0.9) !important;
-    border: 1px solid white !important;
+    background-color: rgba(4, 4, 4, 0.9) ;
+    border: 1px solid white ;
     height: fit-content;
     text-transform: uppercase;
     font-size: 1.45em;
     border-radius: 25px;
-    color: white !important;
+    color: white ;
     padding: 6px 23px;
     font-weight: 500;
     position: absolute;

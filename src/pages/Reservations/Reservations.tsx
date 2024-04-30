@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "./Reservation.css";
-import { Button } from 'antd';
+
 import video from "../../assets/996.mp4";
 import { useLocation } from "react-router-dom";
 
@@ -20,9 +20,9 @@ const Reservations = () => {
                     Your browser does not support the video tag.
                 </video>
             </div>
-            <Button size="large" className="reservation-button" onClick={handleReservationClick}>
+            <button  className="reservation-button" onClick={handleReservationClick}>
                 Make a Reservation
-            </Button>
+            </button>
             <div className={`reservation-form ${formVisible ? 'open' : ''}`}>
                 <div className="form-message">
                     <p>Sorry, we are currently fully booked. Please try again later.</p>

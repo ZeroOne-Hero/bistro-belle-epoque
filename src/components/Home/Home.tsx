@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Row, Col } from 'antd';
+import {  Row, Col } from 'antd';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import bg2 from "../../assets/interior.jpeg"
 import './Home.css';
@@ -42,16 +42,16 @@ const Home: React.FC = () => {
                 <Row gutter={18} >
                     <Col>
                         <Link to="/reservations">
-                            <Button type="primary" size="large" className="book-table-button">
+                            <button   className="book-table-button">
                                 Book a Table
-                            </Button>
+                            </button>
                         </Link>
                     </Col>
                     <Col>
                         <Link to="/food-menu">
-                            <Button size="large" className="make-order-button">
+                            <button  className="make-order-button">
                                 See Menu
-                            </Button>
+                            </button>
                         </Link>
                     </Col>
                 </Row>
