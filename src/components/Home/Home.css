@@ -113,6 +113,9 @@ overflow: hidden
     .home-header {
         font-size: 3.3em;
         width: 490px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .home-sub-header {
