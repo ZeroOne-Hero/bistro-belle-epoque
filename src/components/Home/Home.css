@@ -6,7 +6,7 @@
     align-items: center;
     flex-direction: column;
     background-color: black;
-overflow: hidden
+    overflow: hidden
 }
 
 .swiper {
@@ -62,7 +62,7 @@ overflow: hidden
     font-weight: bolder;
     font-size: 1.45em;
     border-radius: 25px;
-    color: black ;
+    color: black;
     padding: 6px 23px;
     cursor: pointer;
 }
@@ -74,7 +74,7 @@ overflow: hidden
     text-transform: uppercase;
     font-size: 1.45em;
     border-radius: 23px;
-    color: white ;
+    color: white;
     padding: 6px 25px;
     font-weight: 500;
     cursor: pointer;
@@ -87,15 +87,12 @@ overflow: hidden
 
     .home-header {
         font-size: 3em;
-        width: 450px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
     .home-sub-header {
         font-size: 1.8em;
     }
+
     .ant-btn.book-table-button {
         font-size: 1.2em;
     }
@@ -105,6 +102,7 @@ overflow: hidden
     }
 
 }
+
 @media (min-width: 401px) and (max-width: 480px) {
     .home-headers-wrapper {
         padding: 10px;
@@ -112,15 +110,12 @@ overflow: hidden
 
     .home-header {
         font-size: 3.3em;
-        width: 490px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
     .home-sub-header {
         font-size: 2em;
     }
+
     .ant-btn.book-table-button {
         font-size: 1.4em;
     }
@@ -142,6 +137,7 @@ overflow: hidden
     .home-sub-header {
         font-size: 2.25em;
     }
+
     .ant-btn.book-table-button {
         font-size: 1.65em;
     }
@@ -158,12 +154,13 @@ overflow: hidden
     }
 
     .home-header {
-        font-size:4.2em;
+        font-size: 4.2em;
     }
 
     .home-sub-header {
         font-size: 2.25em;
     }
+
     .ant-btn.book-table-button {
         font-size: 1.75em;
     }
